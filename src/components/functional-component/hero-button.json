@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_functional_component_hero_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "exit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ButtonLabel": {
+      "type": "string"
+    },
+    "ButtonCssClasses": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "ButtonType": {
+      "type": "string"
+    }
+  }
+}

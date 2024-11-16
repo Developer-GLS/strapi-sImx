@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_functional_component_ctas",
+  "info": {
+    "displayName": "Cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CtaTitle": {
+      "type": "string"
+    },
+    "CtaCaption": {
+      "type": "text"
+    },
+    "CtaCssClasses": {
+      "type": "string"
+    },
+    "CtaBgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CtaType": {
+      "type": "string"
+    },
+    "CtaButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "functional-component.hero-button"
+    }
+  }
+}

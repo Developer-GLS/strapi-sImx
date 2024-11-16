@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_text_components_quotes",
+  "info": {
+    "displayName": "Quote",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "QuoteContent": {
+      "type": "string"
+    },
+    "QuoteAuthor": {
+      "type": "string"
+    },
+    "QuoteCssClasses": {
+      "type": "string"
+    }
+  }
+}

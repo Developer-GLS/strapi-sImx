@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_graphic_component_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "HeroTitle": {
+      "type": "string"
+    },
+    "HeroSubtitle": {
+      "type": "string"
+    },
+    "HeroBgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "HeroCssClasses": {
+      "type": "string"
+    },
+    "HeroButton": {
+      "displayName": "HeroButton",
+      "type": "component",
+      "repeatable": true,
+      "component": "functional-component.hero-button"
+    }
+  }
+}

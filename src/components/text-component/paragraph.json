@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_component_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "ParagraphContent": {
+      "type": "richtext"
+    },
+    "ParagraphCssClasses": {
+      "type": "string"
+    }
+  }
+}
