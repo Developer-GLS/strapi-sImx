@@ -379,7 +379,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       [
         'graphic-component.hero',
         'text-component.paragraph',
-        'text-components.quote',
+        'text-component.quote',
         'graphic-component.carousel',
         'functional-component.cta'
       ]
@@ -391,10 +391,10 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    HeroImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     publishedAt: Attribute.DateTime;
     Slug: Attribute.String & Attribute.Required;
     Summary: Attribute.Text;
+    Thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     Title: Attribute.String & Attribute.Required;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<

@@ -2,7 +2,8 @@
   "collectionName": "components_graphic_component_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "picture"
+    "icon": "picture",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,15 +13,16 @@
     "HeroSubtitle": {
       "type": "string"
     },
-    "HeroBgImage": {
+    "HeroBgImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "HeroCssClasses": {
       "type": "string"
