@@ -51,6 +51,12 @@
         "graphic-component.carousel",
         "functional-component.cta"
       ]
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "articles"
     }
   }
 }
