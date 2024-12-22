@@ -374,6 +374,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
+    ActivityCompleted: Attribute.Boolean & Attribute.DefaultTo<false>;
     Category: Attribute.Enumeration<['activities', 'news', 'blog']>;
     Content: Attribute.DynamicZone<
       [

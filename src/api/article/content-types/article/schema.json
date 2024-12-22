@@ -57,6 +57,10 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "mappedBy": "articles"
+    },
+    "ActivityCompleted": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
