@@ -32,6 +32,19 @@
       "type": "component",
       "repeatable": true,
       "component": "functional-component.hero-button"
+    },
+    "HeroWrapperCssClasses": {
+      "type": "string"
+    },
+    "HeroWrapperBgImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

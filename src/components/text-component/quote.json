@@ -15,6 +15,12 @@
     },
     "QuoteCssClasses": {
       "type": "string"
+    },
+    "QuoteAuthorDates": {
+      "type": "string"
+    },
+    "QuoteAuthorInfo": {
+      "type": "string"
     }
   }
 }

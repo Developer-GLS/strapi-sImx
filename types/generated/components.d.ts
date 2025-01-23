@@ -60,6 +60,8 @@ export interface GraphicComponentHero extends Schema.Component {
     HeroCssClasses: Attribute.String;
     HeroSubtitle: Attribute.String;
     HeroTitle: Attribute.String;
+    HeroWrapperBgImg: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    HeroWrapperCssClasses: Attribute.String;
   };
 }
 
@@ -74,6 +76,7 @@ export interface TextComponentParagraph extends Schema.Component {
     ParagraphContent: Attribute.RichText;
     ParagraphCssClasses: Attribute.String;
     ParagraphImg: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    ParagraphImgPosition: Attribute.Enumeration<['left', 'right']>;
   };
 }
 
@@ -86,6 +89,8 @@ export interface TextComponentQuote extends Schema.Component {
   };
   attributes: {
     QuoteAuthor: Attribute.String;
+    QuoteAuthorDates: Attribute.String;
+    QuoteAuthorInfo: Attribute.String;
     QuoteContent: Attribute.String;
     QuoteCssClasses: Attribute.String;
   };
